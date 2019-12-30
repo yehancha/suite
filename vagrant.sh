@@ -21,7 +21,7 @@ service mysql restart
 mysql -e "create database dev;"
 
 
-curl -sL https://deb.nodesource.com/setup | bash -
+curl -sL https://deb.nodesource.com/setup_10.x | bash -
 sudo apt-get --yes --force-yes install nodejs
 
 # let's get some docker going too

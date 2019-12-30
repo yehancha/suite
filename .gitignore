@@ -71,3 +71,6 @@ app/static/stylesheets/*
 
 # artifacts from tests
 .cache/*
+
+# IDE configurations
+.vscode/
